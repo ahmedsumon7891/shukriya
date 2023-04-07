@@ -1,0 +1,454 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+   <title>Shukriya - A Social Organization</title>
+    <style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  flex: justify-center;
+}
+/*h1 text */
+.h1 {
+    text-align: center;
+}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+    
+    </head>
+<body>
+<header class="text-gray-600 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+      </svg>
+      <span class="ml-3 text-xl">SHUKRIYA</span>
+    </a>
+    <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+      <a href="" class="mr-5 hover:text-gray-900">Home</a>
+      <a href="" class="mr-5 hover:text-gray-900">About</a>
+      <a href="" class="mr-5 hover:text-gray-900">Services</a>
+      <a href="" class="mr-5 hover:text-gray-900">Contacts</a>
+    </nav>
+    <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0" ><a href="https://forms.gle/PPw6KG4h8aPcqRdYA">Apply Now</a>
+      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+        <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+    </button>
+  </div>
+</header>
+
+
+
+<section class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Humanity Never Dies.<br>
+        <br class="hidden lg:inline-block">Join with us. 
+      </h1>
+      <p class="mb-8 leading-relaxed">Be the reason someone smiles. Be the reason someone feels loved and believes in the goodness in people. Never hurt people. Help those people who needs. Then you will feel the happiness in your heart after seeing those peoples smile.</p>
+      <div class="flex justify-center">
+        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg" ><a href="https://forms.gle/PPw6KG4h8aPcqRdYA">Apply for join</a>
+        </button>
+        <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg"> <a href="https://www.facebook.com/shukriya69">Learn more</a>
+        </button>
+      </div>
+    </div>
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <img class="object-cover object-center rounded" alt="hero" src="https://source.unsplash.com/720x600/?helping people">
+    </div>
+  </div>
+</section>
+
+
+<section class="bg-white dark:bg-gray-900">
+    <div class="container px-6 py-10 mx-auto">
+        <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">explore more <br> activities of <span class="text-blue-500">SHUKRIYA</span></h1>
+
+        <iframe class="min-w-full mt-12 h-64 md:h-[450px] rounded-xl overflow-hidden" src="https://www.youtube.com/embed/naXquhNKzYA" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+
+        <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2">
+            <div class="p-6 border rounded-xl border-r-gray-200 dark:border-gray-700">
+                <div class="md:flex md:items-start md:-mx-4">
+                    <span class="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+                        </svg>
+                    </span>
+
+                    <div class="mt-4 md:mx-4 md:mt-0">
+                        <h1 class="text-2xl font-medium text-gray-700 capitalize dark:text-white">We Work For</h1>
+
+                        <p class="mt-3 text-gray-500 dark:text-gray-300">
+                            There are a lots of people who needs many kinds of help. Some of them needs food to eat, some of them needs money to live. Some of them dieing without getting proper treatment. We are here to help them.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-6 border rounded-xl border-r-gray-200 dark:border-gray-700">
+                <div class="md:flex md:items-start md:-mx-4">
+                    <span class="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+                        </svg>
+                    </span>
+
+                    <div class="mt-4 md:mx-4 md:mt-0">
+                        <h1 class="text-2xl font-medium text-gray-700 capitalize dark:text-white">Working process</h1>
+
+                        <p class="mt-3 text-gray-500 dark:text-gray-300">
+                            Shukriya is a social organization. And it has a team. That team is too much dedicated to that foundation.
+                            They work hard to achieve the goals.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-6 border rounded-xl border-r-gray-200 dark:border-gray-700">
+                <div class="md:flex md:items-start md:-mx-4">
+                    <span class="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
+                        </svg>
+                    </span>
+
+                    <div class="mt-4 md:mx-4 md:mt-0">
+                        <h1 class="text-2xl font-medium text-gray-700 capitalize dark:text-white">Our Funds</h1>
+
+                        <p class="mt-3 text-gray-500 dark:text-gray-300">
+                            The peoples like you are joining with us to help the others people. And they are providing a monthly contribution to help those people. And we are doing so.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-6 border rounded-xl border-r-gray-200 dark:border-gray-700">
+                <div class="md:flex md:items-start md:-mx-4">
+                    <span class="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 dark:text-white dark:bg-blue-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                        </svg>
+                    </span>
+
+                    <div class="mt-4 md:mx-4 md:mt-0">
+                        <h1 class="text-2xl font-medium text-gray-700 capitalize dark:text-white">Joining</h1>
+
+                        <p class="mt-3 text-gray-500 dark:text-gray-300">
+                            At now we are only working in our own area. Our terget is to work in the Whole Bangladesh. So we need your hand. So, please come and join with us. Just click on the Appy button and fill up the form.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+      <img class="object-cover object-center rounded" alt="hero" src="https://i.ibb.co/xGWvrPh/images-9-1.jpg">
+    </div>
+    <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Learn to give instead of getting bigger. 
+        <br class="hidden lg:inline-block">It's a great quality of a man.
+      </h1>
+      <p class="mb-8 leading-relaxed">It is the essential duty of the relatively well-to-do to extend a helping hand to people in distress, suffering, poverty and starvation. It is proof that people are people.
+If people were not for people, then the development and development of human civilization would never have happened. A major reason for human survival is mutual sympathy, helpfulness and association. So let's move forward together.</p>
+
+      <p class="mb-8 leading-relaxed">মানুষের বিপদাপদ, দুঃখ-কষ্ট, দারিদ্র্য ও অনাহারে সহায়তার হাত বাড়িয়ে দেয়া তুলনামূলকভাবে ভালো থাকা মানুষের অপরিহার্য কর্তব্য। মানুষ যে মানুষ, এটা তারই প্রমাণ বহন করে।
+মানুষ যদি মানুষের জন্য না হতো, তাহলে মানবসভ্যতার এতটা বিকাশ ও উন্নয়ন কখনোই ঘটতে পারতো না। মানুষের টিকে থাকার একটা বড় কারণ পরস্পরের প্রতি সহানুভূতি, সহায়তার মনোভাব এবং সংঘবদ্ধতা। তাই আসুন একসাথে এগিয়ে যাই সামনের দিকে ।</p>
+
+      <div class="flex justify-center">
+        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+             <a href="https://forms.gle/PPw6KG4h8aPcqRdYA">Join Us</a>
+        </button>
+        <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
+            <a href="https://www.facebook.com/shukriya69">Learn More</a>
+            </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+    
+    <div class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded">
+       
+        <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="https://i.ibb.co/Twyntps/images-11.jpg" style="width:100%">
+  <div class="text">She is seating with one hope.</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="https://i.ibb.co/gPTJfgf/images-8.jpg" style="width:100%">
+  <div class="text">Fighting with own's to live</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="https://i.ibb.co/j8qn3Y3/images-10.jpg" style="width:100%">
+  <div class="text">Look at his eyes, what he is talking about?</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+   
+    </div>
+    
+    
+    <div class="text-center lg:w-2/3 w-full">
+    
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">They are the peoples of Bangladesh</h1>
+      <p class="mb-8 leading-relaxed">Just look at their faces and you can see their whole life story. You can see their life-long invincible struggle.</p>
+      <p class="mb-8 leading-relaxed">শুধু একবার তাদের মুখের দিকে তাকাও, তাহলে দেখতে পারবে তাদের সারা জীবনের গল্প । তুমি দেখতে পারবে তাদের সারা জীবনের অপরাজেয় সংগ্রামের কথা । </p>
+      <div class="flex justify-center">
+        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+            <a href="https://i.ibb.co/RSvwJ1W/20221020-154650.png">Help Them</a>
+            </button>
+        <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg"><a href="https://www.facebook.com/shukriya69">Learn more</a></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap -m-4 text-center">
+      <div class="p-4 sm:w-1/4 w-1/2">
+        <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">8.0K</h2>
+        <p class="leading-relaxed">Followers</p>
+      </div>
+      <div class="p-4 sm:w-1/4 w-1/2">
+        <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">1.8K</h2>
+        <p class="leading-relaxed">Subscribes</p>
+      </div>
+      <div class="p-4 sm:w-1/4 w-1/2">
+        <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">30</h2>
+        <p class="leading-relaxed">Members</p>
+      </div>
+      <div class="p-4 sm:w-1/4 w-1/2">
+        <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">3</h2>
+        <p class="leading-relaxed">Activities</p>
+      </div>
+    </div>
+  </div>
+</section>
+    <footer class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+    <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg>
+        <span class="ml-3 text-xl">SHUKRIYA</span>
+      </a>
+      <p class="mt-2 text-sm text-gray-500">A Social organization.</p>
+    </div>
+    <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Follow Us</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a class="text-gray-600 hover:text-gray-800"
+            href="https://www.facebook.com/shukriya69">Facebook</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800" href="https://www.instagram.com/shukriya69">Instagram</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800"
+            href="https://www.twitter.com/shukriya69">Twitter</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800"
+            href="https://youtube.com/channel/UCD4fK1DJcwWZY5QGXVJDODQ">YouTube</a>
+          </li>
+        </nav>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Contact Us</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a class="text-gray-600 hover:text-gray-800"
+            href = "mailto: contact.shukriya69@gmail.com">Send Us Email</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800"
+            href="tel:+8801317119850" >Call Us</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800"
+            href="https://wa.me/8801317119850?text=Hi, I have a question about Shukriya!">Send WhatsApp</a>
+          </li>
+             
+        </nav>
+      </div>
+        
+      
+    </div>
+  </div>
+  <div class="bg-gray-100">
+    <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+      <p class="text-gray-500 text-sm text-center sm:text-left">© 2022 Shukriya —
+        <a href="https://twitter.com/shukriya69" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@shukriya69</a>
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+        <a class="text-gray-500" href="https://www.facebook.com/shukriya69">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500" href="https://www.twitter.com/shukriya69">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500" href="https://www.instagram.com/shukriya69">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500" href="https://www.linkedin.com/shukriya69">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </div>
+      
+    </footer>
+
+
+<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "1478263795642430");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v15.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    </body>
+</html>
